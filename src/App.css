@@ -1,0 +1,104 @@
+/* Background Wrapper */
+.background-wrapper {
+    min-height: 100vh;
+    background: 
+      /* url('./assets/images/background-pattern-desktop.svg') top center no-repeat,  */
+      #f5e8ff;
+    background-size: cover;
+    
+    align-items: center;
+    
+  }
+  .background-top {
+    background: url('./assets/images/background-pattern-desktop.svg') no-repeat top center;
+    background-size: cover;
+    height: 350px;
+  }
+  .faq-section {
+    background: #f5e8ff;
+    min-height: calc(100vh - 300px);
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+  }
+  
+  /* FAQ Container */
+  .faq-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 500px;
+    margin-top: -5%;
+  }
+  .header {
+    display: flex;
+    gap: 22px;
+    align-items: center;
+    .logo {
+      width: 50px;
+      height: 50px;
+    }
+  }
+  
+  /* FAQ Title */
+.faq-title {
+    font-size: 2.5rem;
+    color: #6b21a8;
+    font-weight: 800;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  /* FAQ Item */
+  .faq-item {
+    border-bottom: 1px solid #eee;
+  }
+  
+  /* FAQ Question Button */
+  .faq-question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 15px 0;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    color: #333;
+  }
+  
+  /* Hover and Active Effects */
+  .faq-question:hover {
+    background-color: #f3e8ff;
+    color: #7c3aed;
+  }
+  
+  .faq-question.active {
+    color: #7c3aed;
+  }
+  
+  /* FAQ Icon */
+  .faq-icon {
+    font-size: 1.2rem;
+  }
+  
+  /* FAQ Answer (animated via framer motion) */
+  .faq-answer {
+    overflow: hidden;
+    padding: 10px 0;
+  }
+  
+  .faq-answer p {
+    margin: 0;
+    color: #666;
+    font-size: 0.95rem;
+    line-height: 1.5;
+  }
+  
